@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Beautiful Beach",
+      "description": "A serene beach with golden sand and blue water.",
+      "imageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Mountain View",
+      "description": "A breathtaking view of the mountain peaks.",
+      "imageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "City Lights",
+      "description": "The beautiful lights of a bustling city at night.",
+      "imageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Sunset Forest",
+      "description": "An enchanting forest bathed in sunset colors.",
+      "imageUrl": "https://via.placeholder.com/150"
+    }
+  ]
+  
