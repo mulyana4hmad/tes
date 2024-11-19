@@ -29,14 +29,14 @@
                     "name": "nama_objek_kejadian",
                     "label": "Objek Kejadian",
                     "type": "text",
-                    "readonly": false,
+                    "readonly": true,
                     "value": "Orang"
                 },
                 "nama_jenis_kejadian": {
                     "name": "nama_jenis_kejadian",
                     "label": "Jenis Kejadian",
                     "type": "text",
-                    "readonly": false,
+                    "readonly": true,
                     "value": "Operasi Penyelamatan Lainnya"
                 },
                 "waktu_kejadian": {
