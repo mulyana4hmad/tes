@@ -1,0 +1,239 @@
+{
+    "status": true,
+    "message": "Data berhasil diambil",
+    "results": {
+        "data": [
+            {
+                "kode_kejadian": {
+                    "name": "kode_kejadian",
+                    "label": "Kode Kejadian",
+                    "type": "text",
+                    "readonly": true,
+                    "value": "CC1_0000018766"
+                },
+                "nama_pelapor": {
+                    "name": "nama_pelapor",
+                    "label": "Nama Pelapor",
+                    "type": "text",
+                    "readonly": true,
+                    "value": "Ibu Nayla "
+                },
+                "kategori_kejadian": {
+                    "name": "kategori_kejadian",
+                    "label": "Kategori Kejadian",
+                    "type": "text",
+                    "readonly": true,
+                    "value": "2"
+                },
+                "nama_objek_kejadian": {
+                    "name": "nama_objek_kejadian",
+                    "label": "Objek Kejadian",
+                    "type": "text",
+                    "readonly": false,
+                    "value": "Orang"
+                },
+                "nama_jenis_kejadian": {
+                    "name": "nama_jenis_kejadian",
+                    "label": "Jenis Kejadian",
+                    "type": "text",
+                    "readonly": false,
+                    "value": "Operasi Penyelamatan Lainnya"
+                },
+                "waktu_kejadian": {
+                    "name": "waktu_kejadian",
+                    "label": "Waktu Kejadian",
+                    "type": "text",
+                    "readonly": true,
+                    "value": "2024-07-20 08:54:00"
+                },
+                "titik_kenal": {
+                    "name": "titik_kenal",
+                    "label": "Titik Kenal",
+                    "type": "text",
+                    "readonly": true,
+                    "value": "Jl. Arjuna Sel., RT.4/RW.12, Kebon Jeruk, Kebon Jeruk, West Jakarta City, Jakarta, Indonesia"
+                },
+                "alamat": {
+                    "name": "alamat",
+                    "label": "Alamat Kejadian",
+                    "type": "textarea",
+                    "readonly": false,
+                    "value": "Jl. Arjuna Selatan Arteri Tol, Kel. Kebon Jeruk, Kec.Kebon Jeruk Jakarta Barat",
+                    "mandatory": true
+                },
+                "rt": {
+                    "name": "rt",
+                    "label": "RT",
+                    "type": "number",
+                    "readonly": false,
+                    "value": "01",
+                    "mandatory": true
+                },
+                "rw": {
+                    "name": "rw",
+                    "label": "RW",
+                    "type": "number",
+                    "readonly": false,
+                    "value": "01",
+                    "mandatory": true
+                },
+                "objek_kejadian_awal": {
+                    "name": "objek_kejadian_awal",
+                    "label": "Objek Kejadian Awal",
+                    "type": "text",
+                    "readonly": false,
+                    "value": "Lakalantas ",
+                    "mandatory": true
+                },
+                "sebab_kejadian": {
+                    "name": "sebab_kejadian",
+                    "label": "Sebab Kejadian",
+                    "type": "select",
+                    "value": "Lainnya",
+                    "options": [
+                        {
+                            "id": "a",
+                            "name": "nama"
+                        },
+                        {
+                            "id": "a",
+                            "name": "nama"
+                        }
+                    ]
+                },
+                "keterangan_sebab": {
+                    "name": "keterangan_sebab",
+                    "label": "Keterangan Kejadian",
+                    "type": "text",
+                    "readonly": false,
+                    "value": "Lakalantas",
+                    "mandatory": true
+                },
+                "laporan_berita": {
+                    "name": "laporan_berita",
+                    "label": "Kronologis",
+                    "type": "textarea",
+                    "readonly": false,
+                    "value": "Pelapor datang ke kantor sektor kebun jeruk melaporkan kejadian lakalantas tunggal tepat di depan new beringin motor pinggir tol",
+                    "mandatory": true
+                },
+                "kendala": {
+                    "name": "kendala",
+                    "label": "Kendala",
+                    "type": "textarea",
+                    "readonly": false,
+                    "value": "Nihil",
+                    "mandatory": true
+                },
+                "luas_area": {
+                    "name": "luas_area",
+                    "label": "Luas Area Terbakar (m2)",
+                    "type": "number",
+                    "readonly": false,
+                    "value": "0",
+                    "mandatory": true
+                },
+                "section_korban_prtugas": {
+                    "title": "Jumlah Korban Petugas",
+                    "type": "attributes",
+                    "forms": {
+                        "petugas_meninggal": {
+                            "name": "petugas_meninggal",
+                            "label": "Petugas Meninggal",
+                            "type": "number",
+                            "readonly": false,
+                            "value": "0",
+                            "mandatory": true
+                        },
+                        "petugas_luka_ringan": {
+                            "name": "petugas_luka_ringan",
+                            "label": "Petugas Luka Ringan",
+                            "type": "number",
+                            "readonly": false,
+                            "value": "1",
+                            "mandatory": true
+                        },
+                        "petugas_luka_berat": {
+                            "name": "luas_area",
+                            "label": "Petugas Luka Berat",
+                            "type": "number",
+                            "readonly": false,
+                            "value": "0",
+                            "mandatory": true
+                        },
+                        "summary_korban": {
+                            "name": "summary_korban",
+                            "label": "Total Korban Petugas",
+                            "type": "number",
+                            "readonly": true,
+                            "value": "",
+                            "mandatory": true
+                        }
+                    }
+                },
+                "section_korban_masyarakat": {
+                    "title": "Jumlah Korban Masyarakat",
+                    "type": "attributes",
+                    "forms": {
+                        "masyarakat_meninggal": {
+                            "name": "masyarakat_meninggal",
+                            "label": "Masyarakat Meninggal",
+                            "type": "number",
+                            "readonly": false,
+                            "value": "0",
+                            "mandatory": true
+                        },
+                        "masyarakat_luka": {
+                            "name": "masyarakat_luka",
+                            "label": "Masyarakat Luka",
+                            "type": "number",
+                            "readonly": false,
+                            "value": "1",
+                            "mandatory": true
+                        }
+                    }
+                },
+                "jumlah_kk": {
+                    "name": "jumlah_KK",
+                    "label": "Jumlah KK",
+                    "type": "number",
+                    "readonly": false,
+                    "value": "0",
+                    "mandatory": true
+                },
+                "jumlah_jiwa": {
+                    "name": "jumlah_jiwa",
+                    "label": "Jumlah Jiwa",
+                    "type": "number",
+                    "readonly": false,
+                    "value": "1",
+                    "mandatory": true
+                },
+                "foto1": {
+                    "name": "foto1",
+                    "label": "Jumlah Jiwa",
+                    "type": "file",
+                    "readonly": false,
+                    "value": "1",
+                    "mandatory": true
+                },
+                "foto2": {
+                    "name": "foto2",
+                    "label": "Jumlah Jiwa",
+                    "type": "file",
+                    "readonly": false,
+                    "value": "1",
+                    "mandatory": true
+                },
+                "foto3": {
+                    "name": "foto3",
+                    "label": "Jumlah Jiwa",
+                    "type": "file",
+                    "readonly": false,
+                    "value": "1",
+                    "mandatory": true
+                }
+            }
+        ]
+    }
+}
