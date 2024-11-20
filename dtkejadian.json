@@ -14,7 +14,7 @@
                 },
                 {
                     "name": "Kategori Kejadian",
-                    "value": "2"
+                    "value": "Penyelamatan"
                 },
                 {
                     "name": "Objek Kejadian",
@@ -185,23 +185,23 @@
                 },
                 {
                     "name": "foto1",
-                    "label": "Jumlah Jiwa",
-                    "type": "file",
-                    "value": "1",
+                    "label": "Foto Tampak Depan Bangunan Yang Terbakar",
+                    "type": "image",
+                    "value": "http://localhost/esatgas/public//uploads/foto_kejadian/CC1_0000018766_1728027630_801ffeb35a33e014be0d.jpg",
                     "mandatory": true
                 },
                 {
                     "name": "foto2",
-                    "label": "Jumlah Jiwa",
-                    "type": "file",
-                    "value": "1",
+                    "label": "Foto Ruangan Dugaan Asal Titik Api",
+                    "type": "image",
+                    "value": "http://localhost/esatgas/public//uploads/foto_kejadian/CC1_0000018766_1728027631_95f4592219ea1b44819f.jpg",
                     "mandatory": true
                 },
                 {
                     "name": "foto3",
-                    "label": "Jumlah Jiwa",
-                    "type": "file",
-                    "value": "1",
+                    "label": "Foto Dugaan Titik Asal Api",
+                    "type": "image",
+                    "value": "http://localhost/esatgas/public//uploads/foto_kejadian/CC1_0000018766_1728027631_1f3198761210f6bfee8a.jpg",
                     "mandatory": true
                 },
                 {
