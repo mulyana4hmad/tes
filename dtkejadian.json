@@ -1,239 +1,366 @@
 {
     "status": true,
     "message": "Data berhasil diambil",
-    "results": {
-        "data": [
-            {
-                "kode_kejadian": {
-                    "name": "kode_kejadian",
-                    "label": "Kode Kejadian",
-                    "type": "text",
-                    "readonly": true,
+    "results": [
+        {
+            "info": [
+                {
+                    "name": "Kode Kejadian",
                     "value": "CC1_0000018766"
                 },
-                "nama_pelapor": {
-                    "name": "nama_pelapor",
-                    "label": "Nama Pelapor",
-                    "type": "text",
-                    "readonly": true,
+                {
+                    "name": "Nama Pelapor",
                     "value": "Ibu Nayla "
                 },
-                "kategori_kejadian": {
-                    "name": "kategori_kejadian",
-                    "label": "Kategori Kejadian",
-                    "type": "text",
-                    "readonly": true,
+                {
+                    "name": "Kategori Kejadian",
                     "value": "2"
                 },
-                "nama_objek_kejadian": {
-                    "name": "nama_objek_kejadian",
-                    "label": "Objek Kejadian",
-                    "type": "text",
-                    "readonly": true,
+                {
+                    "name": "Objek Kejadian",
                     "value": "Orang"
                 },
-                "nama_jenis_kejadian": {
-                    "name": "nama_jenis_kejadian",
-                    "label": "Jenis Kejadian",
-                    "type": "text",
-                    "readonly": true,
+                {
+                    "name": "Jenis Kejadian",
                     "value": "Operasi Penyelamatan Lainnya"
                 },
-                "waktu_kejadian": {
-                    "name": "waktu_kejadian",
-                    "label": "Waktu Kejadian",
-                    "type": "text",
-                    "readonly": true,
+                {
+                    "name": "Waktu Kejadian",
                     "value": "2024-07-20 08:54:00"
                 },
-                "titik_kenal": {
-                    "name": "titik_kenal",
-                    "label": "Titik Kenal",
-                    "type": "text",
-                    "readonly": true,
+                {
+                    "name": "Titik Kenal",
                     "value": "Jl. Arjuna Sel., RT.4/RW.12, Kebon Jeruk, Kebon Jeruk, West Jakarta City, Jakarta, Indonesia"
-                },
-                "alamat": {
+                }
+            ],
+            "data": [
+                {
                     "name": "alamat",
                     "label": "Alamat Kejadian",
                     "type": "textarea",
-                    "readonly": false,
                     "value": "Jl. Arjuna Selatan Arteri Tol, Kel. Kebon Jeruk, Kec.Kebon Jeruk Jakarta Barat",
                     "mandatory": true
                 },
-                "rt": {
+                {
                     "name": "rt",
                     "label": "RT",
                     "type": "number",
-                    "readonly": false,
                     "value": "01",
                     "mandatory": true
                 },
-                "rw": {
+                {
                     "name": "rw",
                     "label": "RW",
                     "type": "number",
-                    "readonly": false,
                     "value": "01",
                     "mandatory": true
                 },
-                "objek_kejadian_awal": {
+                {
                     "name": "objek_kejadian_awal",
                     "label": "Objek Kejadian Awal",
                     "type": "text",
-                    "readonly": false,
                     "value": "Lakalantas ",
                     "mandatory": true
                 },
-                "sebab_kejadian": {
+                {
                     "name": "sebab_kejadian",
                     "label": "Sebab Kejadian",
                     "type": "select",
-                    "value": "Lainnya",
+                    "value": "LN",
                     "options": [
                         {
-                            "id": "a",
-                            "name": "nama"
+                            "id": "GAS",
+                            "name": "Gas"
                         },
                         {
-                            "id": "a",
-                            "name": "nama"
+                            "id": "LLN",
+                            "name": "Lilin"
+                        },
+                        {
+                            "id": "LN",
+                            "name": "Lainnya"
+                        },
+                        {
+                            "id": "LS",
+                            "name": "Listrik"
+                        },
+                        {
+                            "id": "MS",
+                            "name": "Membakar Sampah"
+                        },
+                        {
+                            "id": "RK",
+                            "name": "Rokok"
                         }
                     ]
                 },
-                "keterangan_sebab": {
+                {
                     "name": "keterangan_sebab",
                     "label": "Keterangan Kejadian",
                     "type": "text",
-                    "readonly": false,
                     "value": "Lakalantas",
                     "mandatory": true
                 },
-                "laporan_berita": {
+                {
                     "name": "laporan_berita",
                     "label": "Kronologis",
                     "type": "textarea",
-                    "readonly": false,
                     "value": "Pelapor datang ke kantor sektor kebun jeruk melaporkan kejadian lakalantas tunggal tepat di depan new beringin motor pinggir tol",
                     "mandatory": true
                 },
-                "kendala": {
+                {
                     "name": "kendala",
                     "label": "Kendala",
                     "type": "textarea",
-                    "readonly": false,
                     "value": "Nihil",
                     "mandatory": true
                 },
-                "luas_area": {
+                {
                     "name": "luas_area",
                     "label": "Luas Area Terbakar (m2)",
                     "type": "number",
-                    "readonly": false,
                     "value": "0",
                     "mandatory": true
                 },
-                "section_korban_prtugas": {
+                {
                     "title": "Jumlah Korban Petugas",
-                    "type": "attributes",
-                    "forms": {
-                        "petugas_meninggal": {
+                    "type": "summary_korban",
+                    "forms": [
+                        {
                             "name": "petugas_meninggal",
                             "label": "Petugas Meninggal",
                             "type": "number",
-                            "readonly": false,
                             "value": "0",
                             "mandatory": true
                         },
-                        "petugas_luka_ringan": {
+                        {
                             "name": "petugas_luka_ringan",
                             "label": "Petugas Luka Ringan",
                             "type": "number",
-                            "readonly": false,
                             "value": "1",
                             "mandatory": true
                         },
-                        "petugas_luka_berat": {
-                            "name": "luas_area",
+                        {
+                            "name": "petugas_luka_berat",
                             "label": "Petugas Luka Berat",
                             "type": "number",
-                            "readonly": false,
                             "value": "0",
                             "mandatory": true
-                        },
-                        "summary_korban": {
-                            "name": "summary_korban",
-                            "label": "Total Korban Petugas",
-                            "type": "number",
-                            "readonly": true,
-                            "value": "",
-                            "mandatory": true
                         }
-                    }
+                    ]
                 },
-                "section_korban_masyarakat": {
+                {
                     "title": "Jumlah Korban Masyarakat",
-                    "type": "attributes",
-                    "forms": {
-                        "masyarakat_meninggal": {
+                    "type": "summary_korban",
+                    "forms": [
+                        {
                             "name": "masyarakat_meninggal",
                             "label": "Masyarakat Meninggal",
                             "type": "number",
-                            "readonly": false,
                             "value": "0",
                             "mandatory": true
                         },
-                        "masyarakat_luka": {
+                        {
                             "name": "masyarakat_luka",
                             "label": "Masyarakat Luka",
                             "type": "number",
-                            "readonly": false,
                             "value": "1",
                             "mandatory": true
                         }
-                    }
+                    ]
                 },
-                "jumlah_kk": {
+                {
                     "name": "jumlah_KK",
                     "label": "Jumlah KK",
                     "type": "number",
-                    "readonly": false,
                     "value": "0",
                     "mandatory": true
                 },
-                "jumlah_jiwa": {
+                {
                     "name": "jumlah_jiwa",
                     "label": "Jumlah Jiwa",
                     "type": "number",
-                    "readonly": false,
                     "value": "1",
                     "mandatory": true
                 },
-                "foto1": {
+                {
                     "name": "foto1",
                     "label": "Jumlah Jiwa",
                     "type": "file",
-                    "readonly": false,
                     "value": "1",
                     "mandatory": true
                 },
-                "foto2": {
+                {
                     "name": "foto2",
                     "label": "Jumlah Jiwa",
                     "type": "file",
-                    "readonly": false,
                     "value": "1",
                     "mandatory": true
                 },
-                "foto3": {
+                {
                     "name": "foto3",
                     "label": "Jumlah Jiwa",
                     "type": "file",
-                    "readonly": false,
                     "value": "1",
                     "mandatory": true
+                },
+                {
+                    "title": "Perhitungan Objek Terbakar",
+                    "type": "taksiran_kerugian",
+                    "forms": [
+                        {
+                            "title": "Bangunan Perumahan (BP)",
+                            "type": "summary_kerugian",
+                            "forms": [
+                                {
+                                    "title": "Rumah",
+                                    "type": "summary_kerugian",
+                                    "forms": [
+                                        {
+                                            "name": "obj12",
+                                            "label": "Rumah Semi Permanen",
+                                            "type": "number",
+                                            "value": ""
+                                        },
+                                        {
+                                            "name": "obj13",
+                                            "label": "Rumah Sederhana",
+                                            "type": "number",
+                                            "value": ""
+                                        },
+                                        {
+                                            "name": "obj14",
+                                            "label": "Rumah Mewah",
+                                            "type": "number",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "obj10",
+                                    "label": "Apartemen",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj11",
+                                    "label": "Rumah Susun",
+                                    "type": "number",
+                                    "value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Bangunan Umum Perdagangan (BUP)",
+                            "type": "summary_kerugian",
+                            "forms": [
+                                {
+                                    "name": "obj15",
+                                    "label": "Ruko",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj16",
+                                    "label": "Kantor",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj17",
+                                    "label": "Bangunan Pendidikan",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj18",
+                                    "label": "Bangunan Hiburan",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj19",
+                                    "label": "Bangunan Perdagangan",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj20",
+                                    "label": "Bangunan Keagamaan",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj21",
+                                    "label": "Bangunan Umum dan Sosial",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj23",
+                                    "label": "Bangunan Penginapan",
+                                    "type": "number",
+                                    "value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "obj3",
+                            "label": "Bangunan Industri (BI)",
+                            "type": "number",
+                            "value": ""
+                        },
+                        {
+                            "title": "Kendaraan (KD)",
+                            "type": "summary_kerugian",
+                            "forms": [
+                                {
+                                    "name": "obj26",
+                                    "label": "Kendaraan Bahan Bakar Minyak/Gas",
+                                    "type": "number",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "obj27",
+                                    "label": "Kendaraan Listrik",
+                                    "type": "number",
+                                    "value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "name": "obj5",
+                            "label": "Instalasi Listrik Luar Gedung (ILLG)",
+                            "type": "number",
+                            "value": ""
+                        },
+                        {
+                            "name": "obj6",
+                            "label": "Tumbuhan (TB)",
+                            "type": "number",
+                            "value": ""
+                        },
+                        {
+                            "name": "obj7",
+                            "label": "Lapak (LPK)",
+                            "type": "number",
+                            "value": ""
+                        },
+                        {
+                            "name": "obj8",
+                            "label": "Sampah (S)",
+                            "type": "number",
+                            "value": ""
+                        },
+                        {
+                            "name": "obj25",
+                            "label": "Objek Terbakar Lainnya (LN)",
+                            "type": "number",
+                            "value": ""
+                        }
+                    ]
                 }
-            }
-        ]
-    }
+            ]
+        }
+    ]
 }
