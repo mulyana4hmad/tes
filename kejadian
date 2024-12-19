@@ -1,0 +1,168 @@
+[
+    {
+        "name": "objek_1",
+        "value_object": 6,
+        "value_area": 20,
+        "value_building": 23110000.0,
+        "value_total": 47760000.0,
+        "forms": [
+            {
+                "name": "",
+                "value_object": 6,
+                "value_area": 20,
+                "value_building": 9870000.0,
+                "value_total": 47760000.0,
+                "forms": [
+                    {
+                        "name": "objek_12",
+                        "value_object": 1,
+                        "value_area": 11,
+                        "value_building": 1406000.0,
+                        "value_total": 14060000.0
+                    },
+                    {
+                        "name": "objek_13",
+                        "value_object": 5,
+                        "value_area": 10,
+                        "value_building": 3370000.0,
+                        "value_total": 33700000.0
+                    },
+                    {
+                        "name": "objek_14",
+                        "value_object": 0,
+                        "value_area": 0,
+                        "value_building": 5094000,
+                        "value_total": ""
+                    }
+                ]
+            },
+            {
+                "name": "objek_10",
+                "value_object": 0,
+                "value_area": 0,
+                "value_building": 8905000,
+                "value_total": ""
+            },
+            {
+                "name": "objek_11",
+                "value_object": 0,
+                "value_area": 0,
+                "value_building": 4335000,
+                "value_total": ""
+            }
+        ]
+    },
+    {
+        "name": "objek_2",
+        "value_object": 0,
+        "value_area": 0,
+        "value_building": 12377000.0,
+        "value_total": 0,
+        "forms": [
+            {
+                "name": "objek_15",
+                "value_object": 0,
+                "value_area": 0,
+                "value_building": 3030000,
+                "value_goods": 0,
+                "value_total": ""
+            },
+            {
+                "name": "objek_16",
+                "value_object": 0,
+                "value_area": 0,
+                "value_building": 9347000,
+                "value_total": ""
+            },
+            {
+                "name": "objek_17",
+                "value_object": 0,
+                "value_area": 0
+            },
+            {
+                "name": "objek_18",
+                "value_object": 0,
+                "value_area": 0
+            },
+            {
+                "name": "objek_19",
+                "value_object": 0,
+                "value_area": 0
+            },
+            {
+                "name": "objek_20",
+                "value_object": 0,
+                "value_area": 0
+            },
+            {
+                "name": "objek_21",
+                "value_object": 0,
+                "value_area": 0
+            },
+            {
+                "name": "objek_23",
+                "value_object": 0,
+                "value_area": 0
+            }
+        ]
+    },
+    {
+        "name": "objek_3",
+        "value_object": 1,
+        "value_area": 20,
+        "value_building": 1000.0,
+        "value_total": 20000.0
+    },
+    {
+        "name": "objek_4",
+        "value_object": 0,
+        "value_building": 0,
+        "value_total": 0,
+        "forms": [
+            {
+                "name": "objek_26",
+                "value_object": 0,
+                "value_area": 0
+            },
+            {
+                "name": "objek_27",
+                "value_object": 0,
+                "value_area": 0
+            }
+        ]
+    },
+    {
+        "name": "objek_5",
+        "value_object": 0,
+        "value_building": 0,
+        "value_total": ""
+    },
+    {
+        "name": "objek_6",
+        "value_object": 0,
+        "value_area": 0,
+        "value_building": 0,
+        "value_total": ""
+    },
+    {
+        "name": "objek_7",
+        "value_object": 0,
+        "value_area": 0,
+        "value_building": 1406000,
+        "value_total": ""
+    },
+    {
+        "name": "objek_8",
+        "value_object": 0,
+        "value_area": 0,
+        "value_building": 0,
+        "value_total": ""
+    },
+    {
+        "name": "objek_25",
+        "value_object": 0,
+        "value_area": 0,
+        "value_building": 0,
+        "value_total": ""
+    }
+]
